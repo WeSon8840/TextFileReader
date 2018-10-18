@@ -24,7 +24,7 @@ public class TextFileReader {
         String line = "";
         String output = "";
         while((line = readFile.readLine()) != null){ //EOF
-            System.out.println(line);
+            JOptionPane.showMessageDialog(null,line);
         }
     }
     
